@@ -1,4 +1,4 @@
-#-*- encoding: utf-8; tab-width: 2 -*-
+require "formtastic/inputs/text_input"
 
 class JsonInput < Formtastic::Inputs::TextInput
   def to_html
